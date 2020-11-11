@@ -1,0 +1,18 @@
+.todo{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo li {
+    list-style: none;
+}
+
+.done li{
+    text-decoration: line-through;
+}
+
+.delete {
+    color:red;
+    margin-left: 5px;
+}
